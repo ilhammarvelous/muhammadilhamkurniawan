@@ -6,7 +6,7 @@ import { technologies } from "../constants";
 
 const Skills = () => {
     return(
-        <section id="skills" className="w-full px-4 mt-27 container mx-auto pr-4">
+        <section id="skills" className="w-full px-5 md:px-4 mt-27 container mx-auto pr-4">
                 {/* Title */}
                 <motion.div variants={textVariant()} className="text-center relative flex flex-col items-center justify-center">
                     {/* Teks Bayangan (Background) */}

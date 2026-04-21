@@ -149,7 +149,7 @@ const Header = () => {
                                 ease: "easeInOut" // Transisi halus
                             }}
                             /* Tambahan Border tebal, Padding, dan Warna Border */
-                            className="w-[340px] h-[340px] lg:w-[400px] lg:h-[400px] 
+                            className="w-[360px] h-[360px] lg:w-[400px] lg:h-[400px] 
                                     bg-slate-200 rounded-2xl overflow-hidden shadow-2xl
                                     border-[3px] border-blue-400 p-2" 
                         >

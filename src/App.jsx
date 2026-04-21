@@ -4,7 +4,7 @@ import { Navbar, Header, About, Skills, Experience, Education, Projects, Contact
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="container mx-auto px-4 md:px-10">
+      <div className="container mx-auto md:px-10">
         <Navbar />
         <Header />
         <About />

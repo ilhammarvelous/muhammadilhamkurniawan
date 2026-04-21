@@ -85,7 +85,7 @@ const Contact = () => {
     };
 
     return(
-        <section id="contact" className="mt-27 container mx-auto pr-4">
+        <section id="contact" className="mt-27 container mx-auto">
             <div className="container mx-auto">
                 <motion.div variants={textVariant()} className="text-center relative flex flex-col items-center justify-center">
                         {/* Teks Bayangan (Background) */}
@@ -108,7 +108,7 @@ const Contact = () => {
             <form onSubmit={handleSubmit}>
                 <div className="w-full mt-10 lg:w-2/3 lg:mx-auto">
                     {/* Input Nama */}
-                    <div className="w-full px-4 mb-8">
+                    <div className="w-full px-6 md:px-0 mb-8">
                     <label htmlFor="name" className="text-base font-bold text-blue-400">
                         Nama
                     </label>
@@ -123,7 +123,7 @@ const Contact = () => {
                     </div>
 
                     {/* Input Email */}
-                    <div className="w-full px-4 mb-8">
+                    <div className="w-full px-6 md:px-0 mb-8">
                     <label htmlFor="email" className="text-base font-bold text-blue-400">
                         Email
                     </label>
@@ -138,7 +138,7 @@ const Contact = () => {
                     </div>
 
                     {/* Input Pesan */}
-                    <div className="w-full px-4 mb-8">
+                    <div className="w-full px-6 md:px-0 mb-8">
                     <label htmlFor="message" className="text-base font-bold text-blue-400">
                         Pesan
                     </label>
@@ -152,7 +152,7 @@ const Contact = () => {
                     </div>
 
                     {/* Tombol Kirim */}
-                    <div className="w-full px-3">
+                    <div className="w-full px-6 md:px-0">
                         <button
                             type="submit"
                             disabled={loading}

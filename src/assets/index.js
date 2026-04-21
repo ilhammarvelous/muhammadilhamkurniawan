@@ -2,7 +2,7 @@ import ilham from "./ilham.jpg";
 import ilham2 from "./ilham2.jpeg";
 import ilham3 from "./ilham3.jpeg";
 import ilham4 from "./ilham4.jpeg";
-import logo from "./Logo.png"
+import Logo from "./Logo.png"
 
 import html from "./tech/html.png";
 import css from "./tech/css.png";
@@ -59,5 +59,5 @@ export {
     sislap,
     untag,
     smk,
-    logo,
+    Logo,
 }

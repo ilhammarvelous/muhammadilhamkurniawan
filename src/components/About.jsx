@@ -7,7 +7,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const About = () => {
     return (
-            <section id="about" className="mt-27 container mx-auto px-5">
+            <section id="about" className="mt-27 container mx-auto px-6">
                 {/* Title */}
                 <motion.div variants={textVariant()} className="text-center relative flex flex-col items-center justify-center">
                     {/* Teks Bayangan (Background) */}
@@ -32,6 +32,7 @@ const About = () => {
                     variants={fadeIn("right", "spring", 0.2, 0.75)}
                     className="w-full lg:w-[45%] flex justify-center items-center min-h-[500px] relative"
                     >
+                        
                     <div className="relative w-[300px] h-[400px] lg:w-[350px] lg:h-[450px]">
                         
                         {/* --- GAMBAR KEDUA (DI BELAKANG - MIRING KANAN) --- */}

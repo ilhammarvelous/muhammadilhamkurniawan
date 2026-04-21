@@ -15,7 +15,7 @@ const Footer = () => {
 
     return (
         <footer className="bg-blue-400 mt-10 pt-18 pb-5">
-            <div className="container mx-auto px-6 md:px-10">
+            <div className="container mx-auto px-3 md:px-10">
                 <div className="flex flex-wrap justify-between">
                     {/* Bagian Profil & Kontak */}
                     <div className="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
