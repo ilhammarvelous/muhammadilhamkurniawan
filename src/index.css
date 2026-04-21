@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+html{
+  scroll-padding-top: 100px;
+  scroll-behavior: smooth;
+}
+
+.coba{
+  background-color: blue;
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+.vertical-timeline-element-date {
+  font-weight: 600 !important; /* atau 700 */
+}
+
+.p-tilt{
+  padding: 20px;
+}
+
+.font-weight{
+  font-weight: 500;
+  font-size: medium;
+}
+
+.black-gradient {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
