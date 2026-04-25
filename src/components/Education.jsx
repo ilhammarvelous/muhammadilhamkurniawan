@@ -1,13 +1,13 @@
-import { textVariant } from "../utils/motion"
+// import { textVariant } from "../utils/motion"
 import { text } from "../style"
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import { education } from "../constants";
 
 const Education = () => {
     return(
         <section id="education" className="mt-27 container mx-auto pr-4">
                 {/* Title */}
-                <motion.div variants={textVariant()} className="text-center relative flex flex-col items-center justify-center">
+                <div className="text-center relative flex flex-col items-center justify-center">
                      {/* Teks Bayangan (Background) */}
                         <h2 className={`${text.sectionHeadText} absolute opacity-20 tracking-widest scale-80 select-none mb-4 md:mb-2`}>
                             Education
@@ -21,7 +21,7 @@ const Education = () => {
                         <p className={`${text.sectionSubText} mt-4`}>
                             Latar belakang pendidikan
                         </p>
-                </motion.div>
+                </div>
 
                 <div className="flex flex-wrap gap-6 mt-6 md:mt-0 md:ml-0 ml-4 p-2 md:p-10 justify-center">
                     {education.map((item, index) => (
@@ -29,6 +29,7 @@ const Education = () => {
                         key={index} 
                         className="w-full md:w-[500px] bg-slate-200 border-2 border-slate-300 p-6 rounded-3xl shadow-sm transition-all duration-300 hover:shadow-md hover:border-blue-400"
                         >
+                        
                         {/* Header: Logo & Badge */}
                         <div className="flex justify-between items-start mb-4">
                             <div className="w-16 h-16 bg-slate-300 rounded-xl flex items-center justify-center p-2">

@@ -1,7 +1,7 @@
 import React, { useState} from "react";
-import { textVariant } from "../utils/motion"
+// import { textVariant } from "../utils/motion"
 import { text } from "../style"
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import Swal from "sweetalert2";
 import emailjs from "@emailjs/browser";
 
@@ -87,9 +87,9 @@ const Contact = () => {
     return(
         <section id="contact" className="mt-27 container mx-auto">
             <div className="container mx-auto">
-                <motion.div variants={textVariant()} className="text-center relative flex flex-col items-center justify-center">
+                <div className="text-center relative flex flex-col items-center justify-center">
                         {/* Teks Bayangan (Background) */}
-                        <h2 className={`${text.sectionHeadText} absolute opacity-20 tracking-widest scale-80 select-none mb-11 md:mb-2`}>
+                        <h2 className={`${text.sectionHeadText} absolute opacity-20 tracking-widest scale-80 select-none mb-11 md:mb-3`}>
                             Contact
                         </h2>
 
@@ -102,7 +102,7 @@ const Contact = () => {
                             Anda dapat menghubungi saya dengan 
                             mengisi form dibawah ini
                         </p>
-                </motion.div>
+                </div>
             </div>
 
             <form onSubmit={handleSubmit}>

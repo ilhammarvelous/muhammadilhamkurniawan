@@ -9,9 +9,9 @@ const About = () => {
     return (
             <section id="about" className="mt-27 container mx-auto px-6">
                 {/* Title */}
-                <motion.div variants={textVariant()} className="text-center relative flex flex-col items-center justify-center">
+                <div className="text-center relative flex flex-col items-center justify-center">
                     {/* Teks Bayangan (Background) */}
-                    <h2 className={`${text.sectionHeadText} absolute opacity-20 tracking-widest scale-80 select-none mb-3 md:mb-1`}>
+                    <h2 className={`${text.sectionHeadText} absolute opacity-20 tracking-widest scale-80 select-none mb-3 md:mb-2`}>
                         About
                     </h2>
 
@@ -23,7 +23,7 @@ const About = () => {
                     <p className={`${text.sectionSubText} mt-4 max-w-sm`}>
                         Perkenalan singkat tentang diri saya
                     </p>
-                </motion.div>
+                </div>
 
                 {/* Content */}
                 <div className="mt-16 flex flex-col lg:flex-row items-center gap-10">
@@ -32,56 +32,56 @@ const About = () => {
                     variants={fadeIn("right", "spring", 0.2, 0.75)}
                     className="w-full lg:w-[45%] flex justify-center items-center min-h-[500px] relative"
                     >
-                        
-                    <div className="relative w-[300px] h-[400px] lg:w-[350px] lg:h-[450px]">
-                        
-                        {/* --- GAMBAR KEDUA (DI BELAKANG - MIRING KANAN) --- */}
-                        <motion.div
-                        whileHover={{ 
-                            rotate: 0, 
-                            scale: 1.05,
-                            zIndex: 20, // Naik ke depan saat di-hover
-                            x: 20 // Sedikit geser agar dramatis
-                        }}
-                        whileTap={{ rotate: 0, scale: 1.1, zIndex: 20 }}
-                        initial={{ rotate: 8 }} // Miring ke kanan awalnya
-                        transition={{ type: "spring", stiffness: 300, damping: 15 }}
-                        className="absolute inset-0 p-[2px] rounded-3xl shadow-card cursor-pointer z-0"
-                        >
-                        <div className="bg-tertiary rounded-3xl p-3 h-full">
-                            <img
-                            src={ilham4} // Ganti dengan gambar kedua kamu
-                            alt="profile-back"
-                            className="w-full h-full object-cover rounded-2xl opacity-80 hover:opacity-100 transition-opacity"
-                            />
-                        </div>
-                        </motion.div>
-
-                        {/* --- GAMBAR PERTAMA (DI DEPAN - MIRING KIRI) --- */}
-                        <motion.div
+                        {/* Bagian kiri */}
+                        <div className="relative w-[300px] h-[400px] lg:w-[350px] lg:h-[450px]">
+                            {/* --- GAMBAR KEDUA (DI BELAKANG - MIRING KANAN) --- */}
+                            <motion.div
                             whileHover={{ 
                                 rotate: 0, 
                                 scale: 1.05,
-                                zIndex: 20 
+                                zIndex: 20, // Naik ke depan saat di-hover
+                                x: 20 // Sedikit geser agar dramatis
                             }}
                             whileTap={{ rotate: 0, scale: 1.1, zIndex: 20 }}
-                            initial={{ rotate: -8 }} // Miring ke kiri awalnya
+                            initial={{ rotate: 8 }} // Miring ke kanan awalnya
                             transition={{ type: "spring", stiffness: 300, damping: 15 }}
-                            className="absolute inset-0 p-[2px] rounded-3xl shadow-card cursor-pointer z-10"
+                            className="absolute inset-0 p-[2px] rounded-3xl shadow-card cursor-pointer z-0"
                             >
-                            <div className="bg-tertiary rounded-3xl p-3 h-ful">
+                            <div className="bg-tertiary rounded-3xl p-3 h-full">
                                 <img
-                                src={ilham3} // Gambar utama kamu
-                                alt="profile-front"
-                                className="w-full h-full object-cover rounded-2xl"
+                                src={ilham4}
+                                alt="profile-back"
+                                className="w-full h-full object-cover rounded-2xl opacity-80 hover:opacity-100 transition-opacity"
                                 />
                             </div>
-                        </motion.div>
+                            </motion.div>
 
-                    </div>
+                            {/* --- GAMBAR PERTAMA (DI DEPAN - MIRING KIRI) --- */}
+                            <motion.div
+                                whileHover={{ 
+                                    rotate: 0, 
+                                    scale: 1.05,
+                                    zIndex: 20 
+                                }}
+                                whileTap={{ rotate: 0, scale: 1.1, zIndex: 20 }}
+                                initial={{ rotate: -8 }} // Miring ke kiri awalnya
+                                transition={{ type: "spring", stiffness: 300, damping: 15 }}
+                                className="absolute inset-0 p-[2px] rounded-3xl shadow-card cursor-pointer z-10"
+                                >
+                                <div className="bg-tertiary rounded-3xl p-3 h-ful">
+                                    <img
+                                    src={ilham3}
+                                    alt="profile-front"
+                                    className="w-full h-full object-cover rounded-2xl"
+                                    />
+                                </div>
+                            </motion.div>
+
+                        </div>
                     </motion.div>
 
-                    <motion.div
+                    {/* Bagian kanan */}
+                    <div
                         variants={fadeIn("left", "spring", 0.3, 0.75)}
                         className="w-full lg:w-[60%]"
                         >
@@ -125,8 +125,8 @@ const About = () => {
                                 </button>
                             </a>
                         </div>
-
-                    </motion.div>
+                    </div>
+                    
                 </div>
             </section>
     )

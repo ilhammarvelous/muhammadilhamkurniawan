@@ -42,7 +42,7 @@ const ExperienceCard = ({ experience }) => (
 
 const Experience = () => {
     return(
-        <section id="experience" className="mt-27 container mx-auto px-3 md:px-0">
+        <section id="experience" className="mt-27 mx-auto px-3 md:px-0">
                 {/* Title */}
                 <motion.div variants={textVariant()} className="text-center relative flex flex-col items-center justify-center">
                         {/* Teks Bayangan (Background) */}
