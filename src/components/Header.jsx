@@ -134,7 +134,7 @@ const Header = () => {
                     </div>
 
                     {/* Bagian kanan*/}
-                    <div className="w-full self-end lg:w-1/2">
+                    <div className="w-full self-center lg:w-1/2">
                         <div className="relative mt-10 lg:mt-0 flex justify-center lg:justify-end">
                             
                             {/* Animasi Naik Turun (Floating) menggunakan Motion.div */}
@@ -163,10 +163,14 @@ const Header = () => {
                         </div>
                     </div>
 
+                    
+
+
+
                 </div>
             </div>
         </section>
-  )
+    )
 }
 
 export default Header

@@ -20,7 +20,9 @@ import {
     rentcar,
     sislap,
     untag,
-    smk
+    smk,
+    herbal,
+    detrac
 } from "../assets"
 
 const navLinks = [
@@ -172,6 +174,20 @@ const projects = [
         description:
         "Aplikasi Full-Stack yang menghubungkan Front-end dengan Back-end menggunakan Resful API",
         image: sislap,
+        source_code_link: "https://github.com/ilhammarvelous/sistem-penjualan-laptop",
+    },
+    {
+        name: "Klasifikasi Jenis Tanaman Herbal",
+        description:
+        "Aplikasi Full-Stack yang menghubungkan Front-end dengan Back-end menggunakan Resful API",
+        image: herbal,
+        source_code_link: "https://github.com/ilhammarvelous/sistem-penjualan-laptop",
+    },
+    {
+        name: "Deteksi Kendaran (hitung & estimasi) Menggunakan YOLO",
+        description:
+        "Aplikasi Full-Stack yang menghubungkan Front-end dengan Back-end menggunakan Resful API",
+        image: detrac,
         source_code_link: "https://github.com/ilhammarvelous/sistem-penjualan-laptop",
     },
 ];

@@ -26,6 +26,8 @@ import rentcar from "./rentcar.png";
 import pos from "./pos.png";
 import imavi from "./imavi.png";
 import sislap from "./sislap.png";
+import herbal from "./herbal.png";
+import detrac from "./detrac.png";
 import github from "./github.png";
 
 import untag from "./untag.png";
@@ -60,4 +62,6 @@ export {
     untag,
     smk,
     Logo,
+    herbal,
+    detrac,
 }

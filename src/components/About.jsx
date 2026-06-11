@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { ilham4, ilham3 } from "../assets";
 import { text } from "../style";
-import { fadeIn, textVariant } from "../utils/motion";
+import { fadeIn } from "../utils/motion";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
@@ -118,7 +118,6 @@ const About = () => {
                                 <button className="group text-base border-2 border-blue-400 bg-blue-400 font-semibold text-white py-3 px-4 rounded-xl 
                                 hover:shadow-lg hover:-translate-y-2 transition duration-300 ease-in-out flex items-center gap-3">
                                     Project 
-                                    {/* Ikon Panah FontAwesome */}
                                     <FontAwesomeIcon 
                                         icon={faArrowRight}
                                     />
