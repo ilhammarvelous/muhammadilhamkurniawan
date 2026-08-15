@@ -11,6 +11,8 @@ import {
     nodejs,
     bootstrap,
     mysql,
+    postgresql,
+    docker,
     postman,
     abs,
     otw,
@@ -104,12 +106,20 @@ const technologies = [
         icon: mysql,
     },
     {
+        name: "PostgreSQL",
+        icon: postgresql,
+    },
+    {
         name: "Postman",
         icon: postman,
     },
     {
         name: "Git",
         icon: git,
+    },
+    {
+        name: "Docker",
+        icon: docker,
     },
 ];
 
@@ -162,13 +172,13 @@ const projects = [
         image: imavi,
         source_code_link: "https://github.com/ilhammarvelous/web-imavi",
     },
-    {
-        name: "Rental Mobil",
-        description:
-        "Platform rental mobil yang memungkinkan pengguna untuk memesan dan menyewa mobil.",
-        image: rentcar,
-        source_code_link: "https://github.com/ilhammarvelous/rent-car",
-    },
+    // {
+    //     name: "Rental Mobil",
+    //     description:
+    //     "Platform rental mobil yang memungkinkan pengguna untuk memesan dan menyewa mobil.",
+    //     image: rentcar,
+    //     source_code_link: "https://github.com/ilhammarvelous/rent-car",
+    // },
     {
         name: "Web App Client",
         description:
@@ -179,14 +189,14 @@ const projects = [
     {
         name: "Klasifikasi Jenis Tanaman Herbal",
         description:
-        "Aplikasi Full-Stack yang menghubungkan Front-end dengan Back-end menggunakan Resful API",
+        "Sebuah aplikasi web yang membantu pengguna dapat mengenali tanaman herbal melalui gambar dengan bantuan AI, serta menampilkan khasiat tanaman herbal melalui LLM",
         image: herbal,
         source_code_link: "https://github.com/ilhammarvelous/sistem-penjualan-laptop",
     },
     {
-        name: "Deteksi Kendaran (hitung & estimasi) Menggunakan YOLO",
+        name: "Deteksi Kendaraan (hitung & estimasi) Menggunakan YOLO",
         description:
-        "Aplikasi Full-Stack yang menghubungkan Front-end dengan Back-end menggunakan Resful API",
+        "Sebuah aplikasi deteksi kendaraan dengan menghitung jumlah kendaraan dan mengukur kecepatan kendaraan menggunakan teknologi YOLO",
         image: detrac,
         source_code_link: "https://github.com/ilhammarvelous/sistem-penjualan-laptop",
     },
@@ -197,8 +207,8 @@ const education =[
         institution: "Universitas 17 Agustus 1945 Surabaya",
         gelar: "S.Kom",
         jurusan: "Teknik Informatika",
-        tahun: "2022 - Sekarang",
-        nilai: "IPK 3.59/4.00",
+        tahun: "2022 - 2026",
+        nilai: "IPK 3.61/4.00",
         logo: untag
     },
     {

@@ -15,6 +15,8 @@ import laravel from "./tech/laravel.png";
 import vue from "./tech/vue.png";
 import bootstrap from "./tech/bootstrap.png";
 import mysql from "./tech/mysql.png";
+import postgresql from "./tech/postgresql.png";
+import docker from "./tech/docker.png";
 import postman from "./tech/postman.png";
 import nodejs from "./tech/nodejs.png";
 
@@ -49,6 +51,8 @@ export {
     vue,
     bootstrap,
     mysql,
+    postgresql,
+    docker,
     postman,
     nodejs,
     github,

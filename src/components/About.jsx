@@ -90,7 +90,7 @@ const About = () => {
                         </h3>
 
                         <p className="mt-4 text-slate-600 text-[16px] leading-[28px]">
-                            Saya seorang Fullstack Developer yang berbasis di Surabaya, saat ini saya sedang menempuh pendidikan S1 di Universitas 17 Agustus 1945 Surabaya, jurusan Teknik Informatika. Saya senang membangun aplikasi yang skalabel dan logika sisi server yang tangguh.
+                            Saya seorang Fullstack Developer yang berbasis di Surabaya, Saya merupakan lulusan baru (fresh graduate) S1 Teknik Informatika dari Universitas 17 Agustus 1945 Surabaya dengan fokus utama pada pengembangan aplikasi web dan rekayasa perangkat lunak. Saya senang dalam mengembangkan proyek berbasis web dan mobile, menganalisis sistem serta membangun logika sisi server yang tangguh.
                         </p>
 
                         {/* Info Box */}
@@ -99,7 +99,7 @@ const About = () => {
                             <div className="flex-1 bg-black-200 p-4 rounded-xl border border-black/20">
                             <p className="text-slate-500 font-medium text-sm">Email</p>
                             <p className="text-slate-700 text-sm mt-1">
-                                ilhamkurwn@gmail.com
+                                kurniawanvamoz@gmail.com
                             </p>
                             </div>
 
