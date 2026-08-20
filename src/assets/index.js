@@ -19,6 +19,7 @@ import postgresql from "./tech/postgresql.png";
 import docker from "./tech/docker.png";
 import postman from "./tech/postman.png";
 import nodejs from "./tech/nodejs.png";
+import python from "./tech/python.png";
 
 import otw from "./company/otw.png";
 import abs from "./company/abs.png";
@@ -55,6 +56,7 @@ export {
     docker,
     postman,
     nodejs,
+    python,
     github,
     abs,
     otw,

@@ -90,7 +90,7 @@ const About = () => {
                         </h3>
 
                         <p className="mt-4 text-slate-600 text-[16px] leading-[28px]">
-                            Saya seorang Fullstack Developer yang berbasis di Surabaya, Saya merupakan lulusan baru (fresh graduate) S1 Teknik Informatika dari Universitas 17 Agustus 1945 Surabaya dengan fokus utama pada pengembangan aplikasi web dan rekayasa perangkat lunak. Saya senang dalam mengembangkan proyek berbasis web dan mobile, menganalisis sistem serta membangun logika sisi server yang tangguh.
+                            Saya seorang Junior Fullstack Developer yang berbasis di Surabaya, Saya merupakan lulusan baru (Fresh Graduate) S1 Teknik Informatika dari Universitas 17 Agustus 1945 Surabaya dengan fokus utama pada pengembangan aplikasi web dan rekayasa perangkat lunak. Saya senang dalam mengembangkan proyek berbasis web dan mobile, menganalisis sistem serta membangun logika sisi server yang tangguh.
                         </p>
 
                         {/* Info Box */}

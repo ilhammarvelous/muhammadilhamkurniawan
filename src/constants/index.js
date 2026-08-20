@@ -9,6 +9,7 @@ import {
     git,
     laravel,
     nodejs,
+    python,
     bootstrap,
     mysql,
     postgresql,
@@ -76,6 +77,10 @@ const technologies = [
     {
         name: "PHP",
         icon: php,
+    },
+    {
+        name: "Python",
+        icon: python,
     },
     {
         name: "NodeJs",
