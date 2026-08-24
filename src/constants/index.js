@@ -15,6 +15,7 @@ import {
     postgresql,
     docker,
     postman,
+    dart,
     abs,
     otw,
     ql,
@@ -22,6 +23,7 @@ import {
     imavi,
     rentcar,
     sislap,
+    todoapp,
     untag,
     smk,
     herbal,
@@ -99,6 +101,10 @@ const technologies = [
         icon: vue,
     },
     {
+        name: "Dart",
+        icon: dart,
+    },
+    {
         name: "Tailwind",
         icon: tailwind,
     },
@@ -164,7 +170,7 @@ const experiences = [
 
 const projects = [
     {
-        name: "Sistem Point of Sale (POS)",
+        name: "Point of Sale (POS) Apparel",
         description:
         "Sistem yang digunakan dalam bisnis modern untuk membantu memproses data transaksi, mengelola stok barang, dan menganalisis data penjualan.",
         image: pos,
@@ -177,13 +183,6 @@ const projects = [
         image: imavi,
         source_code_link: "https://github.com/ilhammarvelous/web-imavi",
     },
-    // {
-    //     name: "Rental Mobil",
-    //     description:
-    //     "Platform rental mobil yang memungkinkan pengguna untuk memesan dan menyewa mobil.",
-    //     image: rentcar,
-    //     source_code_link: "https://github.com/ilhammarvelous/rent-car",
-    // },
     {
         name: "Web App Client",
         description:
@@ -196,14 +195,21 @@ const projects = [
         description:
         "Sebuah aplikasi web yang membantu pengguna dapat mengenali tanaman herbal melalui gambar dengan bantuan AI, serta menampilkan khasiat tanaman herbal melalui LLM",
         image: herbal,
-        source_code_link: "https://github.com/ilhammarvelous/sistem-penjualan-laptop",
+        source_code_link: "#",
     },
     {
         name: "Deteksi Kendaraan (hitung & estimasi) Menggunakan YOLO",
         description:
         "Sebuah aplikasi deteksi kendaraan dengan menghitung jumlah kendaraan dan mengukur kecepatan kendaraan menggunakan teknologi YOLO",
         image: detrac,
-        source_code_link: "https://github.com/ilhammarvelous/sistem-penjualan-laptop",
+        source_code_link: "#",
+    },
+    {
+        name: "ToDo List Mobile App",
+        description:
+        "Proyek aplikasi mobile yang dibangun menggunakan flutter yang digunakan untuk mencatat daftar tugas atau pekerjaan harian",
+        image: todoapp,
+        source_code_link: "#",
     },
 ];
 

@@ -20,6 +20,7 @@ import docker from "./tech/docker.png";
 import postman from "./tech/postman.png";
 import nodejs from "./tech/nodejs.png";
 import python from "./tech/python.png";
+import dart from "./tech/dart.png";
 
 import otw from "./company/otw.png";
 import abs from "./company/abs.png";
@@ -31,6 +32,7 @@ import imavi from "./imavi.png";
 import sislap from "./sislap.png";
 import herbal from "./herbal.png";
 import detrac from "./detrac.png";
+import todoapp from "./todoapp.png";
 import github from "./github.png";
 
 import untag from "./untag.png";
@@ -57,6 +59,7 @@ export {
     postman,
     nodejs,
     python,
+    dart,
     github,
     abs,
     otw,
@@ -65,6 +68,7 @@ export {
     pos,
     imavi,
     sislap,
+    todoapp,
     untag,
     smk,
     Logo,
