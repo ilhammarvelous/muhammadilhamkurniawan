@@ -24,6 +24,7 @@ import {
     rentcar,
     sislap,
     todoapp,
+    poscafe,
     untag,
     smk,
     herbal,
@@ -202,6 +203,13 @@ const projects = [
         description:
         "Sebuah aplikasi deteksi kendaraan dengan menghitung jumlah kendaraan dan mengukur kecepatan kendaraan menggunakan teknologi YOLO",
         image: detrac,
+        source_code_link: "#",
+    },
+    {
+        name: "POS Cafe",
+        description:
+        "Sistem kasir untuk mencatat transaksi dan memperbarui stok otomatis, sehingga operasional coffee dan kedai lebih rapi.",
+        image: poscafe,
         source_code_link: "#",
     },
     {

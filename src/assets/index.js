@@ -33,6 +33,7 @@ import sislap from "./sislap.png";
 import herbal from "./herbal.png";
 import detrac from "./detrac.png";
 import todoapp from "./todoapp.png";
+import poscafe from "./poscafe.png";
 import github from "./github.png";
 
 import untag from "./untag.png";
@@ -69,6 +70,7 @@ export {
     imavi,
     sislap,
     todoapp,
+    poscafe,
     untag,
     smk,
     Logo,
