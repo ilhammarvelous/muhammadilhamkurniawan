@@ -196,7 +196,7 @@ const projects = [
         description:
         "Sebuah aplikasi web yang membantu pengguna dapat mengenali tanaman herbal melalui gambar dengan bantuan AI, serta menampilkan khasiat tanaman herbal melalui LLM",
         image: herbal,
-        source_code_link: "#",
+        source_code_link: "https://github.com/ilhammarvelous/klasifikasi-tanaman-herbal-cnn-llm",
     },
     {
         name: "Deteksi Kendaraan (hitung & estimasi) Menggunakan YOLO",
@@ -210,7 +210,7 @@ const projects = [
         description:
         "Sistem kasir untuk mencatat transaksi dan memperbarui stok otomatis, sehingga operasional coffee dan kedai lebih rapi.",
         image: poscafe,
-        source_code_link: "#",
+        source_code_link: "https://github.com/ilhammarvelous/pos_cafe",
     },
     {
         name: "ToDo List Mobile App",

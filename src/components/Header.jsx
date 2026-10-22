@@ -26,7 +26,7 @@ const Header = () => {
                         </h1>
 
                         <h2 className="font-medium text-slate-500 text-lg mb-9 lg:text-xl">
-                            Saya seorang Fullstack Developer
+                            Saya seorang Fullstack Developer dan AI Engineer
                         </h2>
 
                         {/* BUTTON */}
