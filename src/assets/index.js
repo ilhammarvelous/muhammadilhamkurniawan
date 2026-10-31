@@ -34,6 +34,7 @@ import herbal from "./herbal.png";
 import detrac from "./detrac.png";
 import todoapp from "./todoapp.png";
 import poscafe from "./poscafe.png";
+import fina from "./fina.png";
 import github from "./github.png";
 
 import untag from "./untag.png";
@@ -71,6 +72,7 @@ export {
     sislap,
     todoapp,
     poscafe,
+    fina,
     untag,
     smk,
     Logo,

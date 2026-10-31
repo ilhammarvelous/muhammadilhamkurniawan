@@ -8,46 +8,86 @@ import { github } from "../assets";
 import Tilt from "react-parallax-tilt";
 import { useState } from "react";
 
+// const Modal = ({ isOpen, onClose, project }) => {
+//     if (!isOpen) return null;
+
+//     return (
+//         <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/50 backdrop-blur-sm">
+//             {/* BOX */}
+//             <div className="bg-white rounded-2xl p-6 max-w-lg w-full shadow-xl relative">
+                
+//                 {/* CLOSE BUTTON */}
+//                 <button
+//                     onClick={onClose}
+//                     className="absolute top-3 right-4 text-xl font-bold text-slate-600"
+//                 >
+//                     ✕
+//                 </button>
+
+//                 {/* CONTENT */}
+//                 <h2 className="text-2xl font-bold text-slate-700">
+//                     {project?.name}
+//                 </h2>
+
+//                 <img
+//                     src={project?.image}
+//                     alt={project?.name}
+//                     className="mt-4 rounded-lg"
+//                 />
+
+//                 {/* <p className="mt-4 text-slate-600">
+//                     {project?.description}
+//                 </p> */}
+
+//             </div>
+//         </div>
+//     );
+// };
 const Modal = ({ isOpen, onClose, project }) => {
     if (!isOpen) return null;
 
     return (
-        <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/50 backdrop-blur-sm">
+        <div
+            onClick={onClose}
+            className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/50 backdrop-blur-sm p-4"
+        >
             {/* BOX */}
-            <div className="bg-white rounded-2xl p-6 max-w-lg w-full shadow-xl relative">
-                
+            <div
+                onClick={(e) => e.stopPropagation()}
+                className="bg-white rounded-2xl p-6 md:p-8 w-full max-w-lg md:max-w-3xl lg:max-w-5xl max-h-[90vh] overflow-y-auto shadow-xl relative"
+            >
                 {/* CLOSE BUTTON */}
                 <button
                     onClick={onClose}
-                    className="absolute top-3 right-4 text-xl font-bold text-slate-600"
-                    >
+                    className="absolute top-3 right-4 text-xl md:text-2xl font-bold text-slate-600 hover:text-slate-900"
+                >
                     ✕
                 </button>
 
                 {/* CONTENT */}
-                <h2 className="text-2xl font-bold text-slate-700">
+                <h2 className="text-2xl md:text-3xl font-bold text-slate-700 pr-8">
                     {project?.name}
                 </h2>
 
                 <img
                     src={project?.image}
                     alt={project?.name}
-                    className="mt-4 rounded-lg"
+                    className="mt-4 rounded-lg w-full max-h-[70vh] object-contain"
                 />
 
-                <p className="mt-4 text-slate-600">
+                {/* <p className="mt-4 text-slate-600">
                     {project?.description}
-                </p>
-
+                </p> */}
             </div>
         </div>
     );
 };
 
+
 const ProjectCard = ({ index, name, description,image, source_code_link, onClick }) => {
     return(
         <motion.div 
-        variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+        variants={fadeIn("up", "spring", index * 0.9, 0.75)}
         >
             <Tilt
                 options={{
@@ -93,7 +133,7 @@ const ProjectCard = ({ index, name, description,image, source_code_link, onClick
                     {/* Nama dan deskripsi */}
                     <div className="mt-4">
                         <h3 className="text-slate-600 font-bold text-[23px]">{name}</h3>
-                        {/* <p className="mt-1 text-slate-500 text-[14px]">{description}</p> */}
+                        <p className="mt-1 text-slate-500 text-[14px]">{description}</p>
                     </div>
                 </div>
             </Tilt>

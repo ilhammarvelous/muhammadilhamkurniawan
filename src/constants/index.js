@@ -23,6 +23,7 @@ import {
     imavi,
     rentcar,
     sislap,
+    fina,
     todoapp,
     poscafe,
     untag,
@@ -194,7 +195,7 @@ const projects = [
     {
         name: "Klasifikasi Jenis Tanaman Herbal",
         description:
-        "Sebuah aplikasi web yang membantu pengguna dapat mengenali tanaman herbal melalui gambar dengan bantuan AI, serta menampilkan khasiat tanaman herbal melalui LLM",
+        "Aplikasi web yang membantu pengguna dapat mengenali tanaman herbal melalui gambar dengan bantuan AI, serta menampilkan khasiat tanaman herbal melalui LLM",
         image: herbal,
         source_code_link: "https://github.com/ilhammarvelous/klasifikasi-tanaman-herbal-cnn-llm",
     },
@@ -208,14 +209,21 @@ const projects = [
     {
         name: "POS Cafe",
         description:
-        "Sistem kasir untuk mencatat transaksi dan memperbarui stok otomatis, sehingga operasional coffee dan kedai lebih rapi.",
+        "Aplikasi kasir untuk mencatat transaksi, mengelola data pesanan dan penjualan serta operasional cafe sehingga data lebih rapi dan akurat.",
         image: poscafe,
         source_code_link: "https://github.com/ilhammarvelous/pos_cafe",
     },
     {
+        name: "AI-Powered Finance App",
+        description:
+        "Aplikasi keuangan berbasis web yang ditenagai oleh AI yang dapat membantu pengguna untuk mengelola keuangan mereka.",
+        image: fina,
+        source_code_link: "https://github.com/ilhammarvelous/AI-Powered-Apps",
+    },
+    {
         name: "ToDo List Mobile App",
         description:
-        "Proyek aplikasi mobile yang dibangun menggunakan flutter yang digunakan untuk mencatat daftar tugas atau pekerjaan harian",
+        "Aplikasi mobile yang dibangun menggunakan flutter yang digunakan untuk mencatat daftar tugas atau pekerjaan harian",
         image: todoapp,
         source_code_link: "#",
     },
